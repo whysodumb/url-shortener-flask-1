@@ -38,4 +38,4 @@ def generate_short_code():
     return ''.join(random.choice(chars) for _ in range(6))
 
 if __name__ == '__main__':
-    app.run(port=8080)
+    app.run(host='0.0.0.0', port=8080)
